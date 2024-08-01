@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 300px;
+    padding: 16px;
+    background-color: white;
+    margin: 0 auto;
+    margin-top: 100px;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+.container h2 {
+    text-align: center;
+    color: teal;
+}
+
+.container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.container label {
+    margin: 10px 0;
+}
+
+.container input[type="text"],
+.container input[type="email"],
+.container input[type="password"] {
+    padding: 8px;
+    margin-bottom: 20px;
+    border: 1px solid grey;
+    border-radius: 4px;
+}
+
+.container button[type="submit"] {
+    cursor: pointer;
+    background-color:#4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+}
+
+.container button[type="submit"]:hover {
+    background-color: #008CBA;
+    color: white;
+}
+
+.container a {
+    color: teal;
+    text-decoration: none;
+}
+
+.container a:hover {
+    text-decoration: underline;
+}
+/* Style the navigation bar container */
+/* Style the navigation bar container */
+/* Style the navigation bar container */
+nav {
+    overflow: hidden;
+    background-color: #333;
+   }
+   
+   /* Style the navigation bar links */
+   nav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+   }
+   
+   /* Change color on hover */
+   nav a:hover {
+    background-color: #ddd;
+    color: black;
+   }
+   
+   /* Active/current link */
+   nav a.active {
+    background-color: #4CAF50;
+    color: white;
+   }
+   
+   /* Center the links in the navigation bar */
+   nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+   }
